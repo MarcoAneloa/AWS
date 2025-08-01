@@ -1,0 +1,27 @@
+{
+    "TableName": "anime",
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "title",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "year",
+            "AttributeType": "N"
+        }
+    ],
+    "KeySchema": [
+        {
+            "AttributeName": "title",
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "year",
+            "KeyType": "RANGE"
+        }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1,
+        "WriteCapacityUnits": 1
+    }
+}
