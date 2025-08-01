@@ -1,0 +1,125 @@
+{
+    "anime": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "title": {
+                        "S": "initial d"
+                    },
+                    "year": {
+                        "N": "1998"
+                    }                      
+                }
+            }
+        },
+        {
+             "PutRequest": {
+                "Item": {
+                    "title": {
+                        "S": "one punch man"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }                      
+                }
+            }
+        },
+        {
+            "PutRequest": {
+               "Item": {
+                   "title": {
+                       "S": "world trigger"
+                   },
+                   "year": {
+                       "N": "2014"
+                   }                      
+               }
+           }
+       },
+       {
+                "PutRequest": {
+                "Item": {
+                    "title": {
+                        "S": "my hero academia"
+                    },
+                    "year": {
+                        "N": "2016"
+                    }                      
+                }
+            }
+        },
+        {
+            "PutRequest": {
+            "Item": {
+                "title": {
+                    "S": "naruto"
+                },
+                "year": {
+                    "N": "2002"
+                }                      
+            }
+        }
+        },
+        {
+            "PutRequest": {
+            "Item": {
+                "title": {
+                    "S": "death note"
+                },
+                "year": {
+                    "N": "2006"
+                }                      
+            }
+        }
+        },
+        {
+            "PutRequest": {
+            "Item": {
+                "title": {
+                    "S": "demon slayer"
+                },
+                "year": {
+                    "N": "2019"
+                }                      
+            }
+        }
+        },
+        {
+            "PutRequest": {
+            "Item": {
+                "title": {
+                    "S": "kenshin"
+                },
+                "year": {
+                    "N": "1996"
+                }                      
+            }
+        }
+        },
+        {
+            "PutRequest": {
+            "Item": {
+                "title": {
+                    "S": "black clover"
+                },
+                "year": {
+                    "N": "2017"
+                }                      
+            }
+        }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "title": {
+                        "S": "hunter x hunter"
+                    },
+                    "year": {
+                        "N": "2011"
+                    } 
+                  
+                }
+            }
+        } 
+    ]   
+}
